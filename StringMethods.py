@@ -11,7 +11,7 @@ print("\n",x.rjust(25,"*"))
 #ljust()
 print(x.ljust(25,"*"))
 
-#isalpha()
+#isalpha() , isnumeric() and islower() methods
 s="python3"
 print("\n\nYour String is ",s)
 print("String",s,"is isalpha() -",s.isalpha()) #Returns True if all chars in string are alphabet
