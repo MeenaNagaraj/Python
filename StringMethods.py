@@ -15,7 +15,7 @@ print(x.ljust(25,"*"))
 s="python3"
 print("\n\nYour String is ",s)
 print("String",s,"is isalpha() -",s.isalpha()) #Returns True if all chars in string are alphabet
-print("String",s,"is isalnum() -",s.isalnum())
+print("String",s,"is isnumeric() -",s.isnumeric())
 print("String",s,"is islower() -",s.islower())
 
 
