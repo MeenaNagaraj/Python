@@ -14,3 +14,4 @@ print(a.get(2)[40][3:5])
 print(a.get(40)[1][:3])
 #Bot
 print(a.get(40)[2][:3])
+print(a)
