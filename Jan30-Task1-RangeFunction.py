@@ -1,5 +1,11 @@
 #Jan 30 Task1:
 
+'''
+range() - Built-in function.it returns a sequence of numbers
+Syntax: range(start,stop,step)
+start-optional; stop-required; step-optional
+'''
+
 #Using Range function  print multiples of 5 from 0 to 75
 print("multiples of 5 from 0 to 75:")
 for i in range(76):
