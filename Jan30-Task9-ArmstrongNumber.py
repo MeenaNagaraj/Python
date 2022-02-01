@@ -10,6 +10,10 @@ n=int(input("Enter Number:"))
 num=n
 arm=0
 
+
+len_n=len(str(n))
+#print(len_n)
+
 #find remainder to get last digit,by using % operator
 #find quotient to get next in loop , by using // floor division
 #loop continue till num>0 condition is true
@@ -17,7 +21,7 @@ arm=0
 while num>0:
     rem=num%10
     num=num//10
-    arm=arm+rem**3
+    arm=arm+(rem**len_n)
 
 if arm==n:
     print("YES! Given number {} is an armstrong number.".format(n))
@@ -29,6 +33,10 @@ else:
 output
 Enter Number:153
 YES! Given number 153 is an armstrong number.
+
+output
+Enter Number:548834
+YES! Given number 548834 is an armstrong number.
 
 output
 Enter Number:157
